@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Package">
+      <UniqueIdentifier>{5373393b-541b-4ec2-bf75-fbe5fba722ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Base">
+      <UniqueIdentifier>{3ce0bf38-78bc-4d03-9526-e09761927852}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Base\Base.h">
+      <UniqueIdentifier>{de90bac9-9b9b-4c11-8d18-2625c6884771}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object">
+      <UniqueIdentifier>{e24afca0-b7d8-49e0-9555-4b5ca24318a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object\Object.h">
+      <UniqueIdentifier>{834a3797-6a31-46ad-a70b-4804f4d92fad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{ca85a535-42ba-421c-b203-82920222b458}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Manager">
+      <UniqueIdentifier>{5fe7f660-f529-4b59-a6fb-ffc8b92f3507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Manager\Manager.h">
+      <UniqueIdentifier>{10c3e18f-4fa8-4198-b370-1aadb2932f97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object\Character">
+      <UniqueIdentifier>{057023cf-d07b-41be-8c92-2ffb7d4b5d2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object\Character\Character.h">
+      <UniqueIdentifier>{c41124a9-b4dc-415f-875a-b743d9eb64d8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Test.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="console.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BImage.cpp">
+      <Filter>소스 파일\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="BObject.cpp">
+      <Filter>소스 파일\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>소스 파일\Object\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="ColManager.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="BEngine.cpp">
+      <Filter>소스 파일\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="BInput.cpp">
+      <Filter>소스 파일\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\Object\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>소스 파일\Object\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>소스 파일\Object\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemySpawnManager.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Start.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="console.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="BImage.h">
+      <Filter>소스 파일\Base\Base.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MonoSingleton.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Monobehaviour.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="BObject.h">
+      <Filter>소스 파일\Base\Base.h</Filter>
+    </ClInclude>
+    <ClInclude Include="BEngine.h">
+      <Filter>소스 파일\Base\Base.h</Filter>
+    </ClInclude>
+    <ClInclude Include="ColManager.h">
+      <Filter>소스 파일\Manager\Manager.h</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>소스 파일\Manager\Manager.h</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BInput.h">
+      <Filter>소스 파일\Base\Base.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>소스 파일\Object\Object.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>소스 파일\Object\Character\Character.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>소스 파일\Object\Character\Character.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>소스 파일\Object\Character\Character.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>소스 파일\Object\Character\Character.h</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemySpawnManager.h">
+      <Filter>소스 파일\Manager\Manager.h</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>소스 파일\Manager\Manager.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Start.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WorriorThrowStonesAgain.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="funkysuspense.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="impact_stone_rock_hit_floor.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="zapsplat_foley_wood_bambo_swoosh_through_air_001.mp3">
+      <Filter>리소스 파일</Filter>
+    </Media>
+  </ItemGroup>
+</Project>

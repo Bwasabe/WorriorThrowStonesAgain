@@ -1,10 +1,2 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: 중간 디렉터리(Debug\)에 다른 프로젝트(용사는 오늘도 돌을 던진다.vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
-  
-WorriorThrowStonesAgain.rc(53): error RC2135: file not found: funkysuspense.mp3
-  
-  
-WorriorThrowStonesAgain.rc(55): error RC2135: file not found: zapsplat_foley_wood_bambo_swoosh_through_air_001.mp3
-  
-  
-WorriorThrowStonesAgain.rc(57): error RC2135: file not found: impact_stone_rock_hit_floor.mp3
-  
+  용사는 오늘도 돌을 던진다.vcxproj -> D:\Github\WorriorThrowStonesAgain\WorriorThrowStonesAgain\용사는 오늘도 돌을 던진다\Debug\WorriorThrowStonesAgain.exe
